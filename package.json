@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run lint && tap --cov test/*.js",
     "lint": "standard"
   },
   "keywords": [],
@@ -19,7 +19,8 @@
   "homepage": "https://github.com/nvs2394/hsl-to-hex#readme",
   "description": "",
   "devDependencies": {
-    "standard": "^10.0.3"
+    "standard": "^10.0.3",
+    "tap": "^10.7.3"
   },
   "dependencies": {
     "hsl-to-rgb-for-reals": "^1.1.0"
