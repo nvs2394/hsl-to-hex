@@ -1,5 +1,5 @@
 {
-  "name": "hsl-to-hex",
+  "name": "hsl-to-hex-v2",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
